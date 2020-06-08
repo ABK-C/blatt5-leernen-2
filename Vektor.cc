@@ -12,7 +12,7 @@ double Vektor::betrag() {
 }
 
 std::ostream& operator<<(std::ostream& os, Vektor v) {
-  os << "(" << v.x_ << "," << v.z_ << ")";
+  os << "(" << v.x_ << "," << v.y_ << "," << v.z_ << ")";
   return os;
 }
 
